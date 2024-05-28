@@ -10,11 +10,13 @@ Cottrazm (**Co**nstruct **T**umor **Tra**nsition **Z**one (Boundary) **M**icroen
 ## Installation
 
 The development version can be installed from git hub with 'devtools'.
+YOU NEED INSTALL infercnv VERSION 1.3.3
 ```
 # Install devtools, if necessary
 if (!requireNamespace("devtools", quietly = TRUE))
     install.packages("devtools")
 
+devtools::install_github("broadinstitute/infercnv")
 devtools::install_github("Yelab2020/Cottrazm")
 ```
 
