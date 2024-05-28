@@ -75,10 +75,10 @@ STCNV <- function(TumorST = TumorST,
     #plot_probabilities = F,
     #save_rds = F,
     #save_final_rds = F,
-    #no_plot = T,
+    no_plot = T,
     #output_format = NA,
     #useRaster = T,
-    #up_to_step = 17
+    up_to_step = 17
   )
   return(infercnv_obj)
 }
